@@ -67,7 +67,7 @@ interface avalon_mm #(
         output  debugaccess
     );
 
-    modport slave (
+    modport client (
         // Common signals
         input   address,
 
